@@ -10,6 +10,7 @@
   bottom: 0px;
   width: 100%;
   left: 0px;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -83,4 +84,28 @@ body {
   border: solid 2px plum;
   color: plum;
   cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0px;
+  }
+  .social-media {
+    position: absolute;
+    bottom: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  #register-btn {
+    width: 50%;
+    height: 30px;
+    align-self: center;
+  }
+  .social-media > button {
+    width: 40px;
+    height: 40px;
+  }
 }
