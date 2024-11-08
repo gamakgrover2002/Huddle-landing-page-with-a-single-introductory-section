@@ -1,0 +1,86 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: #674bb1;
+}
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.container {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  padding: 5px 50px;
+  margin: 50px 50px;
+}
+.sub-container {
+  flex-basis: 50%;
+}
+.sub-container > img {
+  width: 100%;
+  height: 100%;
+}
+.sub-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 50px;
+  max-width: 400px;
+  color: white;
+}
+.sub-container2 > h5 {
+  opacity: 0.6;
+  font-weight: 300;
+}
+#register-btn {
+  width: 40%;
+  height: 15%;
+  background-color: white;
+  color: #674bb1;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+#register-btn:hover {
+  color: white;
+  background-color: plum;
+  cursor: pointer;
+}
+.social-media {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+.social-media > button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #674bb1;
+  border: solid 2px white;
+  color: white;
+}
+.social-media > button:hover {
+  border: solid 2px plum;
+  color: plum;
+  cursor: pointer;
+}
